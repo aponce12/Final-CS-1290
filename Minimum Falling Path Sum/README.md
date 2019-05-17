@@ -28,6 +28,7 @@ minimum weight each time, then add it to the current one, and store it in A[-1][
 Note: The code can be modified to start from top-bottom or bottom-top.
 
 3. Code
+
 class Solution(object):
     def minFallingPathSum(self, A):
         while len(A) >= 2:
